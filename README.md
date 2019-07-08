@@ -1,3 +1,3 @@
 # learningJavaScript
-this has JavaScript codes i was practicing on you can use if you like.
+this has JavaScript codes i was practicing, use it to support you.
 just basic stuff
