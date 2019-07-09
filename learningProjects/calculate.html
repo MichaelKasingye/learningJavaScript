@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <!-- <script src="main.js">
+    	
+    </script> -->
+</head>
+<body>
+        <script type="text/javascript" language="Javascript">
+            function doSum() 
+            {
+             var a = parseInt(document.getElementById("a").value, 10);
+             var b = parseInt(document.getElementById("b").value, 10);
+           
+             var sum =  a + b;
+           
+             document.getElementById("sum").value = sum;
+           }
+           </script>
+           <!--onblur='doSum()' 
+            When you leave the input field, a function is triggered  -->
+           
+           <form action="" method="POST">
+               <fieldset>
+                   <legend>ADDITION CALCULATOR</legend>
+            <br/>NUMBER:
+           <input type="text" id="a"  value="0" size="5" />
+            <br/>NUMBER:
+           <input type="text" id="b"  value="0" size="5" />
+           <br/>
+            <br/>ADDITION:
+           <input type="text" id='sum' value='' size="5" disabled/>
+           <br/><br/>CLICK :.......  
+            <input id = "calculate" type = "button" value="calculate" onclick="doSum()">   
+        </fieldset>
+           </form>
+
+          
+</body>
+</html>

@@ -1,0 +1,83 @@
+
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 KASINGYE Exceptions</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+  <meta name="description" content="KASINGYE">
+  <meta name="author" content="KASINGYE">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="main.css">
+  <script src="jsExceptions.js"></script>
+</head>
+
+<body>
+
+        <ul>
+                Links to my other examples
+                <li><a href="index.html">index</a></li>
+                <li><a href="basics.html">basics</a></li>
+                    <li> <a href="domElements.html">domElements</a></li>
+                        <li> <a href="jsExceptions.html">jsExceptions</a></li>
+                            <li> <a href="pg2.html">pg2</a></li>
+        </ul>
+
+    <!--understand this code below 
+        shows an error as an alert incase image fails to load-->
+    <img src = "myimage.git" onerror = "alert('an error occured loading this image')"/>
+  <div id="c1">
+      <p>Click to see result</p>
+      <p> Now using try{}catch()</p>
+</div>
+<div id="form">
+    <form>
+        <input type = "button" value = "Click me" onclick="exceptionTest();"/>
+    </form>
+    <p>Error will occur deppending</p>
+</div>
+<br/>
+<div id="c2">
+    <p>Click to see result</p>
+    <p> Now using try{}catch()finally{}</p>
+</div>
+<div id="form">
+  <form>
+      <input type = "button" value = "Click me" onclick="exceptionTest2();"/>
+  </form>
+  <p>Error will occur deppending</p>
+</div>
+
+<br/>
+<div id="c2">
+    <p>Click to see result</p>
+    <p>Now using throw exeption</p>
+</div>
+<div id="form">
+  <form>
+      <input type = "button" value = "Click me" onclick="exceptionTest3();"/>
+  </form>
+  <p>Error will occur deppending</p>
+</div>
+
+<br/>
+<div id="c2">
+    <p>Click to see result</p>
+    <p>Now using onerror exeption</p>
+</div>
+<div id="form">
+  <form>
+      <input type = "button" value = "Click me" onclick="onerrorFunctionTest();"/>
+  </form>
+  <p>Error will occur deppending</p>
+</div>
+
+<div id="c2">
+        <p>mike</p>
+  </div>
+  
+</body>
+</html>
